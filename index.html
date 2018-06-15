@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <script src="cytoscape.js-master/dist/cytoscape.js">
+    </script>
+    <title>Tutorial 1: Getting Started</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+</head>
+<style>
+    #cy {
+
+        margin-top: 6rem;
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #e6f5ff;
+    }
+</style>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+        
+
+        
+        <img src="ant.png" alt="">
+        <a class="navbar-brand" href="#">GraphicalAnt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item text-light active">
+
+                    <button type="button" class="btn btn-info">Ajuda</button>
+                    <button type="button" class="btn btn-success">Desenvolvedores</button>
+                    <button type="button" class="btn btn-primary">Referencias do Algoritmo</button>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="">
+
+            <div id="cy" class="">
+                <script src="algoritmo.js"></script>
+                <script src="desenhoDeNo.js"></script>
+                <script src="code.js">
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="margin-left:80%">
+            <div class="card-header">
+                <img src="delete.png" alt="">
+                Remover No</div>
+    
+            <ul id="lista" class="list-group list-group-flush m-2">
+                No
+            
+                
+                 <input id="noRemover" type="number" class="form-control"> 
+                 <button id="botaoRemoverNo" class="btn btn-outline-danger mt-1">
+                    Remover
+                </button>
+    
+            </ul>
+    
+        </div>
+
+
+
+    <div class="card" style="margin-left:80%">
+        <div class="card-header"><img src="edge.png" alt=""> Editar arestas</div>
+
+        <ul id="lista" class="list-group list-group-flush m-2">
+            no inicio
+        
+            <input id="noInicio" type="number" class="form-control"> no fim
+            <input id="noFim" type="number" class="form-control"> peso
+            <input id="peso" type="number" class="form-control">
+            <button id="botaoAdicionarPeso" class="btn btn-primary mt-1">
+                Adicionar Peso
+            </button>
+
+        </ul>
+
+    </div>
+
+    <div class="card text-primary bg-light mt-4 mb-3" style="margin-left:80%">
+        <div class="card-header">
+        <img src="ant.png" alt="">
+        Algoritmo Ant System</div>
+
+        <ul id="lista" class="list-group list-group-flush m-2">
+            No de inicio
+            <button id="botaoExecutar" class="btn btn-success mt-1">
+                Executar
+            </button>
+
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
