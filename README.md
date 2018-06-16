@@ -11,7 +11,7 @@ Para a instalação é preciso um servidor disponível, podendo ser o servidor A
 # manual
 
 Inicialmente a tela de desenho estará vazia, para adicionar nos, a fim de construir o grafo completo basta clicar nas outras partes da tela de desenho:
-<img src="https://github.com/SergioNoivak/GraphicalAnt.js/blob/master/img/foto2.PNG " width="400" height="250">
+![software](https://github.com/SergioNoivak/GraphicalAnt.js/blob/master/img/foto2.PNG)
 
 
 
